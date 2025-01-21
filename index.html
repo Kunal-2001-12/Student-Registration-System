@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Registration System for managing student details">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration System</h1>
+        <p>Manage student details with functionalities to add, edit, and delete records.</p>
+    </header>
+
+    <main>
+        <section id="registration-form">
+            <h2>Register Student</h2>
+            <form id="student-form">
+                <label for="student-name">Student Name:</label>
+                <input type="text" id="student-name" name="student-name" required pattern="^[A-Za-z ]+$" placeholder="Enter student name">
+
+                <label for="student-id">Student ID:</label>
+                <input type="number" id="student-id" name="student-id" required placeholder="Enter student ID">
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter email ID">
+
+                <label for="contact">Contact No:</label>
+                <input type="text" id="contact" name="contact" required pattern="^[0-9]{10}$" placeholder="Enter 10-digit contact number">
+                <!-- Add more fields as necessary -->
+                <button type="button" id="add-button">Add Student</button>
+            </form>
+        </section>
+
+        <section id="student-records">
+            <h2>Student Records</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Email</th>
+                        <th>Contact</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="records-body">
+                    <!-- Student records will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Student Registration System. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
