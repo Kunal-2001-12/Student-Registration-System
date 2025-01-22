@@ -17,7 +17,7 @@ The Student Registration System is a web application that allows users to manage
 
 ## Screenshot
 
-![Student Registration System]
+[Student Registration System]
  (img1.png , img2.png)
 
 ## Getting Started
