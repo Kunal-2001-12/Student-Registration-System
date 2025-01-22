@@ -18,6 +18,7 @@ The Student Registration System is a web application that allows users to manage
 ## Screenshot
 
 ![Student Registration System]
+ (img1.png , img2.png)
 
 ## Getting Started
 
@@ -54,7 +55,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please contact [your-kunalsur2001@gmail.com]
+For any inquiries, please contact.
 (gmailto: kunalsur2001@gmail.com).
 
 
