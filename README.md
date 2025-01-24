@@ -26,7 +26,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/student-registration-system.git
+    git clone https:https://github.com/Kunal-2001-12/student-registration-system.git
     ```
 2. Open the project directory:
     ```sh
